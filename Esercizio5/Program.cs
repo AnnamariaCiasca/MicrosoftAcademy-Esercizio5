@@ -65,6 +65,11 @@ namespace Esercizio5
                 Console.WriteLine("\nContinuare? s/n\n");
                 continua = Console.ReadKey().KeyChar;
 
+                if(continua != 's' || continua != 'S')
+                {
+                    Console.WriteLine("\nArrivederci!");
+                }
+
         } while (continua == 's' || continua == 'S');
         
 
