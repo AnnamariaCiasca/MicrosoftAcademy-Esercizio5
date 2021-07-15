@@ -67,7 +67,7 @@ namespace Esercizio5
 
                 if(continua != 's' || continua != 'S')
                 {
-                    Console.WriteLine("\nArrivederci!");
+                    Console.WriteLine($"\nArrivederci {nome}!");
                 }
 
         } while (continua == 's' || continua == 'S');
